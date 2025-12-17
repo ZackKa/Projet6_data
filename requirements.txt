@@ -1,4 +1,4 @@
-bentoml==1.4.3
+bentoml==1.4.19
 scikit-learn==1.6.1
 pandas==2.2.3
 numpy==2.1.3
