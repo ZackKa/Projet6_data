@@ -1,12 +1,12 @@
-service: "service.py:service"
+service: "service.py:service" # Indique à BentoML quel fichier (service.py) et quelle variable (service) contiennent le service ML à exposer
 
 labels:
   owner: "z"
-  project: "seattle-energy-prediction"
+  project: "seattle-energy-prediction" # Nom du projet
 
 include:
-  - "*.py"
-  - "energy_model_8cols.joblib"
+  - "*.py" # Inclut tous les fichiers Python dans le build Docker
+  - "energy_model_8cols.joblib" # Inclut le modèle entraîné
 
 python:
-  pip_requirements: requirements.txt
+  pip_requirements: requirements.txt # Inclut les dépendances Python necessaires. BentoML installera automatiquement ces packages lors du déploiement
