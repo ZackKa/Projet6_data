@@ -1,0 +1,12 @@
+service: "service.py:service"
+
+labels:
+  owner: "z"
+  project: "seattle-energy-prediction"
+
+include:
+  - "*.py"
+  - "energy_model_8cols.joblib"
+
+python:
+  pip_requirements: requirements.txt

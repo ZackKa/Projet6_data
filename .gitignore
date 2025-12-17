@@ -1,0 +1,5 @@
+# Dossiers Python générés automatiquement
+__pycache__/
+
+# Environnements et dépendances locales
+.conda/
