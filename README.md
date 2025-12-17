@@ -13,7 +13,9 @@ projet/
 ├── bentofile.yaml         # Recette pour créer l’image Docker
 ├── energy_model_8cols.joblib  # Modèle pipeline sklearn sauvegardé (8 colonnes)
 ├── requirements.txt       # Dépendances Python (ou via Poetry)
-└── bentoml_store/        # Stockage des modèles BentoML (auto-géré)
+├── 2016_Building_Energy_Benchmarking.csv  # Csv de base
+├── README.md
+└── template_modelistation_supervisee-Copy1.ipynb #Analyse donnée et model retenu
 ```
 📝 Étapes détaillées
 ### 1️⃣ Sauvegarde du modèle sklearn
