@@ -114,6 +114,7 @@ python save_model.py
 
 
 ###3️⃣ Création de l’API avec BentoML (service.py)
+(BentoML sert à créer une API autour d’un modèle de machine learning)
 
 Chargement du modèle BentoML et définition du service :
 
